@@ -1,0 +1,53 @@
+<!--Input html
+
+<label>                              ** Permite marcar um titulo vinculado com input Ex: endereço abaixo
+    Endereço:
+    <input   **tag principal
+     - placeholder="Rua"              **Aparecer informção dentro do campo input
+     - autofocus                      **Já inicia com o input clicavél, coloca apenas em um input, pois foca apenas em 1 por ves.
+     - autocomplete="street-address"  **Completa automático o campo, precisa definir qual tipo         de                               informação vai ser utilizada EX: nome, endereço, site e outros
+      -readonly                       **Deixa o input no modo somente leitura 
+      -value                          **Valor atual 
+      -disable **desliga o input
+      -LABEL ** Tag que permite interligar as configurações do input, o input fica dentro da trag Label.
+      -for /id ** um faz ligação ao outro, vão sempre usar o mesmo nome 
+      -input Range ** define valor/volume
+      Ex. <imput type="range" min="0" max="100" value="50"> 
+      -input file 
+           options;
+           -multiple - permite selecionar vários aqrquivos 
+           -accept - seleciona o tipo de arquivo que quer aceitar..
+           Ex: accept=".jepg" "audio/*" ""
+
+           
+    />
+</label>
+
+-->
+
+<label>
+  Endereço:
+  <input placeholder="Rua" autofocus autocomplete="street-address" />
+</label>
+<br>
+<input type="range" min="0" max="10" value="3" />
+<br>
+<input type="tel" />
+<br>
+<input type="file" multiple accept="" />
+<br>
+<input type="date" />
+<br>
+<br>
+
+
+<h2>Qual sua rede social preferida?</h2>
+<br>
+<label for="instagram">Instagram</label>
+<input type="radio" id="instagram" name="redes-sociais" />
+<br>
+<label for="facebook">facebook</label>
+<input type="radio" id="facebook" name="redes-sociais" />
+<br>
+<label for="youtube">youtube</label>
+<input type="radio" id="youtube" name="redes-sociais" />
