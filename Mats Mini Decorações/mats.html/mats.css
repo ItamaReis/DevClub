@@ -1,0 +1,154 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #E6E6FA;
+    }
+
+header{
+    display: inline;
+  
+}
+.image-principal{
+    margin-left: 450px;
+    margin-top: 200px;
+
+}
+.image-logo{
+    width: 200px;
+    height: 200px;
+    opacity: 0.16px;
+    position: sticky;
+    margin-top: -150px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+h1{
+    color: rgb(25, 125, 133);
+    font-family: "Dancing Script";
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+p{
+    font-family: "Dancing Script";
+    font-size: 40px;
+    color: rgb(25, 125, 133);
+    margin-top: 0;  
+}
+
+
+
+
+
+
+.toy-story{
+    width: 600px;
+    height: 600px;
+    margin-bottom: 200px;
+    margin-left: 60px;   
+}
+
+.image-toy-story{
+    width: 600px;
+    height: 600px; 
+    display: inline-block;
+}
+
+.texto-toy-story{
+    font-size: 30px;
+    color: rgb(148, 190, 81);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+    
+
+.rose{
+    width: 600px;
+    height: 600px;
+    margin-bottom: 200px;
+    margin-left: 780px;
+    margin-bottom: 500px;
+    margin-top: -800px;     
+}
+
+.image-rose{
+    width: 500px;
+    height: 600px; 
+    display: inline-block;
+}
+
+.texto-rose{
+    font-size: 30px;
+    width: 500px;
+    color:#BDB76B;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: "Dancing Script";  
+}
+
+
+
+
+
+.adulto-luxo{
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    margin-top: -200px;
+    margin-left: 60px;
+    
+     
+}
+
+.image-adulto-luxo{
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+}
+
+
+.texto-adulto-luxo{
+    font-size: 30px;
+    color: rgb(148, 190, 81);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+.tema-monstro{
+    width: 600px;
+    height: 600px;
+    margin-left: 780px;
+    margin-bottom: 500px;
+    margin-top: -710px;   
+}
+
+.image-monstro{
+    width: 500px;
+    height: 600px; 
+    display: inline-block;
+
+}
+
+.texto-monstro{
+    color: #8B008B;
+    width: 500px;
+    font-weight: 400;
+}
+   
+
