@@ -1,0 +1,140 @@
+*{
+    font-family: SF Pro Display, sans-serif;
+    margin: 0;
+    padding: 0;   
+    
+}
+header{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid rgb(192, 189, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.logo-1{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 80px;
+    gap: 80px;
+    font-weight: 200;
+
+}
+
+.texto-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -100px;
+    
+}
+.textos{
+    margin: 250px 0 50px 50px;
+}
+.titulo-iphone{
+    font-size: 20px;
+    font-weight: 800;
+   
+}
+.texto-principal{
+    font-size: 30px;
+    font-weight: 800;
+    margin: 30px 0 25px 0;
+}
+p{
+   margin-bottom: 25px;
+}
+.valores{
+    color: rgba(107, 102, 102);
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.comprar{
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    background: #0071e3;
+    margin-bottom: 50px;
+}
+
+.selecao-comprar{
+    position: absolute;
+    bottom: -5px;
+    left: 50px;
+
+}
+.escolha-cor{
+    font-size: 15px;
+    margin: 0;
+}
+.troca-cor{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.image{
+    margin-top: 250px;
+    z-index: 99;
+}
+.images{
+    width: 330px;
+    height: 500px;
+    z-index: 99;
+}
+.azul{
+    background-color: #81a5c4;
+}
+
+.amarelo{
+    background-color: #f7da47;
+}
+.roxo{
+    background-color: #9a6fb6;
+}
+.preto{
+    background-color: #272d33;
+}
+.vermelho{
+    background-color: #b50012;
+}
+
+.branco{
+    background-color: #c1c1c1;
+}
+
+.circulo{
+    width: 100%;
+    height: 100%;
+    background: #81a5c4;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    clip-path: circle(700px at right 1000px); 
+}
+
+.footer{
+    margin-top: 50px;
+    margin-left: 50px;
+   
+}
+.text-footer{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 12px;
+}
