@@ -126,6 +126,8 @@ p{
     top:0px;
     left: 0px;
     clip-path: circle(700px at right 1000px); 
+    padding-bottom: 40px;
+
 }
 
 .footer{
@@ -133,8 +135,17 @@ p{
     margin-left: 50px;
    
 }
-.text-footer{
-    margin-top: 10px;
+.footer{
+    margin-top: 100px;
     margin-left: 50px;
     font-size: 12px;
+    padding-bottom: 50px;
+    list-style: none;
+    border-top: 2px solid rgb(177, 170, 170);
+}
+.lista1{
+    list-style: none;
+    margin-top: 20px;
+    font-family: inherit;
+    
 }
