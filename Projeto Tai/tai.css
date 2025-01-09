@@ -1,5 +1,5 @@
 *{
-    font-family: 'SF Pro Display' , sans-serif;
+    font-family: SF Pro Display, sans-serif;
     margin: 0;
     padding: 0;   
     
@@ -10,16 +10,28 @@ header{
     border-bottom: 1px solid rgb(192, 189, 189);
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-    
-    
+    align-items: center;  
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
 }
 
-.logo-1{
-    width: 20px;
-    height: 20px;
+.duvidas{
+    word-spacing: 50px;
+    padding-left: 50px;
+    padding-right: 100px;
     cursor: pointer;
+}
+.temas {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.logo-1{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding-right: 50px;
+    margin-bottom: 10px;
 }
 
 .links{
